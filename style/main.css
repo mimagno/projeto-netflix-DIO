@@ -1,8 +1,65 @@
-body{
-    background-color: blue;
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.container{
+/*Elementos Base*/
 
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Conteúdo principal*/
+
+.conteudo-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), url('/img/h.t.s.d.o.f-capa.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.conteudo-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
