@@ -79,6 +79,7 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all ;
     border-radius: 4px;
+    margin-bottom: 15%;
 }
 
 .botao:hover{
