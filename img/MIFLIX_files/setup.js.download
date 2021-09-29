@@ -14,7 +14,3 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
-function onClick(element){
-    window.open(element)
-}
